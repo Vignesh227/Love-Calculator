@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Love Calculator</title>
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+       
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="index.html"><img class="nav-bar-image" src = "css/images/heart-with-wings.png" alt = "Love-image" style="margin-right:10px"> Love Calculator</a>
+        </nav>
+     
+      <div class="container-one">
+        
+        <div class="girl">
+          <img src="css/images/girl.png" alt="boy-image" class="girl-image">
+        </div>
+        <div id="hearts-alpaca" class="hearts">
+          <div class="heart"></div>
+          <div class="heart"></div>
+          <div class="heart"></div>
+          <div class="heart"></div>
+        </div>
+        <div class="main-content">
+          <div class="brand-title">Love Calculator </div>
+          <div class="inputs">
+              <form id="form-id">
+
+                <input type="text" onkeyup="name_one_val()" id="name-one" placeholder="Your name" required/><br>
+                <input type="text" onkeyup="name_two_val()" id="name-two" placeholder="Crush's name" required/><br>
+                  <!--
+                <input class="submit" id="submit" type="submit" onclick="loveCalculate()" value="Calculate">
+                  -->
+                  <button id="submit" class="submit" onclick="return loveCalculate()">Calculate</button>
+              </form>
+              <br>
+              <span id="result"></span>
+          </div>
+        </div>
+        <div class="boy">
+          <div id="hearts-alpaca-two" class="hearts-two">
+            <div class="heart-two"></div>
+            <div class="heart-two"></div>
+            <div class="heart-two"></div>
+            <div class="heart-two"></div>
+          </div>
+          <img src="css/images/boy.png" alt="boy-image" class="boy-image">
+          
+        </div>
+        
+        
+      </div>
+        
+      
+      <script src="js/main.js"></script>
+    </body>
+</html>

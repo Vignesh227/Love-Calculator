@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+body{
+    background-image: linear-gradient(to left,#ff74cc, #fa48b9 ,#ed1fa5);
+   /* background: url('images/pink-background.jpg');
+    width:100%;
+    background-repeat: none; */
+    margin-top:20px;
+    margin: 0;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+
+/* Navigation bar */
+.nav-bar-image{
+    width : 8%;
+}
+.navbar  {
+    padding-top: 2rem;
+    padding-left: 4rem ;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding : 0 18px 0 18px;
+
+}
+.nav-link {
+    font-size : 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+input {
+  caret-color: #ed1fa5;
+}
+
+.container-one {
+    display:flex;
+  margin:auto;
+  margin-top:2.5rem;
+  position: relative;
+  width: 75%;
+  height: 430px;
+  border-radius: 20px;
+ /* padding: 40px;*/
+  box-sizing: border-box;
+  background: hsl(300, 100%, 94%);
+  /*background: hsl(300, 100%, 90%);*/
+  box-shadow: 14px 14px 20px #ed1fa5;
+}
+/* Girl image div*/
+.girl{
+    width:25%;
+}
+/* CSS for girl image */
+.girl-image{
+    width: 80%;
+    margin-left:50px;
+    margin-bottom:0px;
+    height:103%;
+}
+/* CSS for input form (main-content)*/
+.main-content{
+    padding-top: 40px;
+    width: 50%;
+}
+/* Boy image div*/
+.boy{
+  display: flex;;
+    width:25%;
+}
+/* CSS for Boy image */
+.boy-image{
+    width:75%;
+    height: 100%;
+    margin-right: 50px;
+}
+#hearts-alpaca-two{
+  width:10%;
+}
+
+.brand-title {
+  text-align: center;
+  font-family: 'Playball', cursive;
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 2.4rem;
+  color:    #ed1fa5;
+  letter-spacing: 1px;
+}
+
+.inputs {
+    
+  text-align: left;
+  margin-top: 30px;
+}
+
+input, .submit {
+    margin:auto;
+  display: block;
+  width: 40%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+
+input::placeholder {
+    /*
+  color: #ff8ad4;*/
+  color:#ed1fa5;
+  font-family: 'Playball', cursive;
+}
+
+.container-one input {
+    margin:auto;
+    width:60%;
+    border-bottom: 1.3px solid black;
+    background:  hsl(300, 100%, 94%);
+  /*background: white;*/
+  color:#ed1fa5;
+  font-family: 'Playball', cursive;
+  font-weight: bold;
+  font-size: 26px;
+  letter-spacing: 2px;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50px;
+ /* border-radius: 50px;
+  /*box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;*/
+}
+
+.container-one .submit{
+  border: none;
+  font-family: 'Playball', cursive;
+  letter-spacing: 5px;
+  font-size:20px;
+  color: white;
+  margin-top: 20px;
+  background: #ed1fa5;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+.submit:hover {
+  transition:1s;
+  background-color: #d40c8e;
+  box-shadow: none;
+}
+
+
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#result{
+  /*color:#ed1fa5;*/
+  color:black;
+  font-family: 'Playball', cursive;
+  font-weight: bold;
+  font-size:2rem;
+  text-align:center;
+  margin-top: 20px;
+  margin-left: 8.3rem;
+}
+
+/* Flying heart CSS - girl*/
+
+.hearts {
+  width: 5%;
+  min-width: 100px;
+  height: 25%;
+  min-height: 200px;
+  margin-left: 80px;
+  position: absolute;
+  z-index: 10;
+ }
+ 
+ .heart {
+  position: absolute;
+  height: 20%;
+  min-height: 25px;
+  width: 20%;
+  min-width: 25px;
+  background-color: red;
+  -webkit-mask-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg>');
+          mask-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg>');
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: bottom;
+          mask-position: bottom;
+   opacity: 0;
+   animation: floating-heart 10s infinite cubic-bezier(0.5, 0.5, 0.5, 0.5);
+ }
+ 
+ @keyframes floating-heart {
+   0% {
+     opacity: 0;
+     bottom: 0%;
+     left: 0%;
+   }
+   10% {
+     opacity: 1;
+     bottom: 20%;
+     left: 70%;
+   }
+   20% {
+     bottom: 40%;
+     left: 10%;
+   }
+   30% {
+     bottom: 60%;
+     left: 50%;
+   }
+   40% {
+     opacity: 1;
+     bottom: 80%;
+     left: 5%;
+   }
+   48% {
+     opacity: 0;
+     bottom: 100%;
+     left: 60%;
+   }
+   100% {
+     opacity: 0;
+     bottom: 100%;
+     left: 90%;
+   }
+ }
+ 
+ .heart:nth-child(1) {  
+   animation-delay: 1s;
+ }
+ 
+ .heart:nth-child(2) {
+   animation-delay: 2.7s;
+ }
+ 
+ .heart:nth-child(3) {
+   animation-delay: 4s;
+ }
+ 
+ .heart:nth-child(4) {
+   animation-delay: 4.9s;
+ }
+
+/* End of Flying heart CSS - girl*/
+
+
+/* Flying heart CSS - boy*/
+
+.hearts-two {
+  width: 5%;
+  min-width: 100px;
+  height: 10%;
+  margin-left: 100px;
+  min-height: 250px;
+  position: absolute;
+  z-index: 10;
+ }
+ 
+ .heart-two {
+  position: absolute;
+  height: 20%;
+  min-height: 25px;
+  width: 20%;
+  min-width: 25px;
+  background-color: red;
+  -webkit-mask-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg>');
+          mask-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg>');
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: bottom;
+          mask-position: bottom;
+   opacity: 0;
+   animation: floating-heart-two 10s infinite cubic-bezier(0.5, 0.5, 0.5, 0.5);
+ }
+ 
+ @keyframes floating-heart-two {
+   0% {
+     opacity: 0;
+     bottom: 0%;
+     left: 0%;
+   }
+   10% {
+     opacity: 1;
+     bottom: 20%;
+     left: 70%;
+   }
+   20% {
+     bottom: 40%;
+     left: 10%;
+   }
+   30% {
+     bottom: 60%;
+     left: 50%;
+   }
+   40% {
+     opacity: 1;
+     bottom: 80%;
+     left: 5%;
+   }
+   48% {
+     opacity: 0;
+     bottom: 100%;
+     left: 60%;
+   }
+   100% {
+     opacity: 0;
+     bottom: 100%;
+     left: 100%;
+   }
+ }
+ 
+ .heart-two:nth-child(1) {  
+   animation-delay: 1.3s;
+ }
+ 
+ .heart-two:nth-child(2) {
+   animation-delay: 2s;
+ }
+ 
+ .heart-two:nth-child(3) {
+   animation-delay: 3s;
+ }
+ 
+ .heart-two:nth-child(4) {
+   animation-delay: 4.3s;
+ }
+
+/* End of Flying heart CSS - boy*/
+
+
+/* CSS for Mobile Phones */
+@media (max-width:480px){
+  .navbar{
+    padding-left: 1rem;
+  }
+  .nav-bar-image{
+    width : 23%;
+  }
+  .brand-title{
+    font-size: 2.4rem;
+  }
+  .container-one{
+    padding:15px;
+    margin-top: 3.8rem;
+    height:450px;
+  }
+  .main-content{
+    width:100%;
+  }
+  .brand-title{
+    width:100%;
+  }
+  .girl, .boy{
+    
+    width:0px;
+  }
+  .boy{
+    margin-left:0px;
+  }
+  .container-one input{
+    font-size:24px;
+    width:80%;  
+  }
+  .submit{
+    width: 80%;
+  }
+  #result{
+    margin: auto;
+    font-size :1.6rem;
+    margin-left: 3.2rem;
+    text-align: center;
+  }
+  #hearts-alpaca, #hearts-alpaca-two{
+    display:none;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  body {
+      background-color: blue;
+  }
+}
