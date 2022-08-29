@@ -1,2 +1,2 @@
 # Love-Calculator
-Enter your names and find how much love exists between you both !!
+Find how much love exists between you and your loved one ❤️
